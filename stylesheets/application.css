@@ -20,9 +20,10 @@ strong em,em strong { font-weight:bold; font-style:italic; }
 #right ul#bottom_links { width:451px; height:44px; }
 #right ul#bottom_links li { list-style:none; }
 #right ul#bottom_links li a { display:block; float:left; }
-#right ul#bottom_links li.twitter a { width:95px; height:44px; }
-#right ul#bottom_links li.facebook a { width:118px; height:44px; }
-#right ul#bottom_links li.google a { width:87px; height:44px; }
+#right ul#bottom_links li.twitter a { width:70px; height:44px; }
+#right ul#bottom_links li.facebook a { width:90px; height:44px; }
+#right ul#bottom_links li.google a { width:80px; height:44px; }
+#right ul#bottom_links li.gaiq a { width:90px; height:44px; }
 /* other stuff */
 hr.clear { display:block; clear:both; visibility:hidden; height:0; border-width:0; margin:0; padding:0; overflow:hidden; }
 /* form stuff */
