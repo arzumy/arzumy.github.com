@@ -1,0 +1,40 @@
+@import url("reset.css");
+body { font-family:Helvetica,Arial,Verdana,sans-serif; color:#4d3e2b; }
+a { color:#4d3e2b; }
+strong { font-weight:bold; }
+em { font-style:italic; }
+strong em,em strong { font-weight:bold; font-style:italic; }
+#main { position:relative; margin:0 auto; width:1000px;  z-index:5; }
+#left { margin-top:313px; padding-left:3px; width:425px; float:left; }
+#left h3 { display:block; margin:22px 0px 7px 0px; width:102px; height:18px;}
+#left h2 { display:block; margin-left:-2px; width:338px; font-size:30px; font-weight:bold; letter-spacing:-0.05em; line-height:28px; float:left; }
+#left h2 a { display:block; padding:10px; margin:-10px; width:338px; height:87px; text-decoration:none; overflow:hidden; }
+#left h2 a:hover { color:#fff; background-color:#40b649; }
+#left p { display:block; margin-top:70px; width:75px; font-size:11px; font-weight:bold; text-align:right; float:right; }
+#right { padding:67px 0px 0px 5px; width:455px; float:right; }
+#right h1 { margin:0px 0px 21px 0px; font-size:36px; font-weight:bold; letter-spacing:-0.05em; line-height:34px; }
+#right h2 { display:block; margin:0 auto; margin-top:40px; width:201px; height:57px;}
+#right h4 { display:block; margin:80px 0px 6px 0px; width:229px; height:20px; }
+#right p { font-size:14px; line-height:25px; }
+/* bottom links */
+#right ul#bottom_links { width:451px; height:44px; }
+#right ul#bottom_links li { list-style:none; }
+#right ul#bottom_links li a { display:block; float:left; }
+#right ul#bottom_links li.twitter a { width:70px; height:44px; }
+#right ul#bottom_links li.facebook a { width:90px; height:44px; }
+#right ul#bottom_links li.google a { width:80px; height:44px; }
+#right ul#bottom_links li.gaiq a { width:90px; height:44px; }
+/* other stuff */
+hr.clear { display:block; clear:both; visibility:hidden; height:0; border-width:0; margin:0; padding:0; overflow:hidden; }
+/* form stuff */
+#right #email_form { height:107px; v}
+#right #email_form input#email_email { display:block; margin:2px 0px 0px -4px; padding:5px; width:350px; height:31px; font-size:28px; color:#d2d2d2; letter-spacing:-0.05em; border:1px solid #4d3e2b; float:left; }
+#right #email_form input#email_email:hover { border:1px solid #ef4310; }
+#right #email_form input#email_email:focus { color:#777777; border:1px solid #008f80; }
+#right #email_form input.button_go { display:block; margin:2px 0px 0px 0px; width:86px; height:43px; text-indent: -2000px; background-image: url("../images/go.jpg"); background-repeat: no-repeat; background-position: left top; float: right;}
+#right #email_form p { margin:8px 0px 25px 0px; font-size:11px; line-height:17px; }
+#right #email_form #email_success p { margin:0px; padding:0px; }
+#right #email_form #email_success p.success { margin:0px 0px 6px 0px; font-size:30px; font-weight:bold; letter-spacing:-0.05em; line-height:28px; }
+#right #email_form #email_success p a { padding:3px; margin:-3px; }
+#right #email_form #email_success p a:hover { color:#fff; background-color:#40b649; text-decoration:none; }
+#right #email_form p.fail { display:block; padding:4px; margin:-4px; margin-top:4px; width:354px; background-color:yellow; }
