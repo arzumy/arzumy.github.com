@@ -1,1 +1,7 @@
-/* Custom CSS /*
+/* Custom CSS */
+
+.mini-layout,
+.mini-layout .mini-layout-body,
+.mini-layout.fluid .mini-layout-sidebar {
+  height: auto;
+}
