@@ -3,6 +3,7 @@ layout: default
 title: How I use heroku_san with auto_tagger for deployment
 tags : [heroku, deployment, rails, ruby]
 ---
+<p><small>{{ page.date | date_to_long_string }}</small></p>
 
 In [SAYS](http://says.com), we use [capistrano-gitflow](https://github.com/technicalpickles/capistrano-gitflow) in our deployment recipe. It provides us with tagging and logging workflow. Made our life easier.
 
