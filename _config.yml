@@ -2,8 +2,10 @@ title: arzumy md
 tagline: short notes on small discoveries
 production_url: http://ar.zu.my
 author:
-  name: arzumy md
+  name: Arzumy MD
   email: hello@ar.zu.my
+meta:
+  description: Arzumy MD is a CTO and founding team member at SAYS.com. A rubyist and a tactical hacker. Recently built Groupon Malaysia and worked together with Pivotal Labs on Friendster.
   
 pygments: true
 permalink: /:title
