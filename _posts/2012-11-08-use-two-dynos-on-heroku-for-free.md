@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How I use two dynos on heroku for free
+title: How I Use Two Dynos On heroku For Free
 tags : [heroku, deployment, rails, ruby]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>

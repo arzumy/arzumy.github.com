@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How I use heroku_san with auto_tagger for deployment
+title: How I Use heroku_san With auto_tagger For Deployment
 tags : [heroku, deployment, rails, ruby]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>
