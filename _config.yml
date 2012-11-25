@@ -1,4 +1,9 @@
-title : arzumy md
+title: arzumy md
 tagline: short notes on small discoveries
+production_url: http://ar.zu.my
+author:
+  name: arzumy md
+  email: hello@ar.zu.my
+  
 pygments: true
-permalink: /:title 
+permalink: /:title
