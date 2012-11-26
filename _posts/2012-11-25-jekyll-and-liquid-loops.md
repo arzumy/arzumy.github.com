@@ -14,7 +14,7 @@ Since this is a blog, having [atom.xml](/atom.xml) for feed is not a bad idea. I
     <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
  
-     <title>{{ site.title }} - {{ site.tagline }}</title>
+     <title>{{ "{{ site.title " }}}} - {{ "{{ site.tagline " }}}}</title>
      <link href="{{ "{{ site.production_url " }}}}/atom.xml" rel="self"/>
      <link href="{{ "{{ site.production_url " }}}}"/>
      <updated>{{ "{{ site.time | date_to_xmlschema " }}}}</updated>
@@ -50,6 +50,10 @@ There you go. Non-problem solved.
 
 NOTE: If you want to use *code* tag to display liquid syntax like I did above, then you'll have to temporarily disable tag processing. You can use *{{ "{% raw " }}%}* tag.
 
+    {{ "{% raw " }}%}
+      {{ "{% for post in site.posts limit:10 " }}%}
+    {{ "{% endraw " }}%}
+    
 UPDATED: [Github Pages](http://pages.github.com/) won't run *{{ "{% raw " }}%}*  plugin. So you can escape it with this instead 
 
     {{ "{{ " }}"{{ "{% for post in site.posts limit:10" }} " }}{{ "}}%}
