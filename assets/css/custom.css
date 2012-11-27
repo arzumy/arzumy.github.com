@@ -1,5 +1,10 @@
 /* Custom CSS */
 
+.newfooter {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 .mini-layout,
 .mini-layout .mini-layout-body,
 .mini-layout.fluid .mini-layout-sidebar {
