@@ -4,6 +4,10 @@ code, pre {
   font-size: 11px;
 }
 
+code {
+  color: #333333;
+}
+
 .newfooter {
   font-size: 12px;
   line-height: 18px;

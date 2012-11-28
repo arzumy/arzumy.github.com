@@ -50,4 +50,4 @@ Then I just paste from the example to heroku.rake, I removed ci from STAGES.
   end
 {% endhighlight %}
 
-That's it. *rake staging deploy* will deploy to staging, then tag it with *staging/datetime*. *rake production deploy* will deploy anything tagged as *staging/\**.
+That's it. `rake staging deploy` will deploy to staging, then tag it with `staging/datetime`. `rake production deploy` will deploy anything tagged as `staging/\*`.

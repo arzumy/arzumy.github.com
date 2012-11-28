@@ -44,19 +44,19 @@ But if you look at the loop
 
 That will list down all posts since the dawn of time. I don't have a problem with it yet. At this time of writing, I only have 4 posts. This could be a problem if I'm persistent enough to churn out new post every few days. I decided not to be pragmatic and solve this non-problem now. 
 
-A quick look here [https://github.com/Shopify/liquid/wiki/Liquid-for-Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) shows that I can just add *limit* to the loop.
+A quick look here [https://github.com/Shopify/liquid/wiki/Liquid-for-Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) shows that I can just add `limit` to the loop.
   
     {{ "{% for post in site.posts limit:10 " }}%}
 
 There you go. Non-problem solved.
 
-NOTE: If you want to use *code* tag to display liquid syntax like I did above, then you'll have to temporarily disable tag processing. You can use *{{ "{% raw " }}%}* tag.
+NOTE: If you want to use `<code>` tag to display liquid syntax like I did above, then you'll have to temporarily disable tag processing. You can use `{{ "{% raw " }}%}` tag.
 
     {{ "{% raw " }}%}
       {{ "{% for post in site.posts limit:10 " }}%}
     {{ "{% endraw " }}%}
     
-UPDATED: [Github Pages](http://pages.github.com/) won't run *{{ "{% raw " }}%}*  plugin. So you can escape it with this instead 
+UPDATED: [Github Pages](http://pages.github.com/) won't run `{{ "{% raw " }}%}`  plugin. So you can escape it with this instead 
 
     {{ "{{ " }}"{{ "{% for post in site.posts limit:10" }} " }}{{ "}}%}
     

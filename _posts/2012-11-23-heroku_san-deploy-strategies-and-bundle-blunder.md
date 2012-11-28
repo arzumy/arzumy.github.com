@@ -7,7 +7,7 @@ tags : [heroku, deployment, rails, ruby, bundler]
 
 What's annoying about [heroku_san](https://github.com/fastestforward/heroku_san) is it will run migration all the time. Not cool. Most of the times I don't have any migration to run. Few seconds wasted waiting for the environment to load yet no migration needed.
 
-Good thing heroku_san allows custom deploy strategy. [Here's the complete tutorial](https://github.com/fastestforward/heroku_san/wiki/Deploy-Strategies). Here's my short version. All I want is for the deployment to just push the commit and that's it. No need for migration and restart. So I just cut as paste from the tutorial to */lib/tasks/heroku.rake*
+Good thing heroku_san allows custom deploy strategy. [Here's the complete tutorial](https://github.com/fastestforward/heroku_san/wiki/Deploy-Strategies). Here's my short version. All I want is for the deployment to just push the commit and that's it. No need for migration and restart. So I just cut as paste from the tutorial to `/lib/tasks/heroku.rake`
 
 {% highlight ruby %}
   require 'heroku_san'
