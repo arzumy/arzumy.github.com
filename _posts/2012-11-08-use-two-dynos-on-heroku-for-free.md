@@ -11,12 +11,16 @@ Except this time, it's not good enough. I need to run delay jobs, and that would
 
 So what I did instead is, to start another heroku app with one worker only. No web dyno. Then all I need to do is change the DATABASE_URL to be the same as my current web app. 
 
-    heroku config --app app-web # list down the config
-    heroku config:add DATABASE_URL=mysql2://app-web.database.url --app app-worker
+{% highlight bash %}
+  heroku config --app app-web # list down the config
+  heroku config:add DATABASE_URL=mysql2://app-web.database.url --app app-worker
+{% endhighlight %}
     
 Now I'll have to deploy to both app. Something like this should do it
 
-    git remote add app-worker git@heroku.com:app-worker.git # one time only, add app-worker to git
-    git push heroku && git push heroku-worker # deploy to both
+{% highlight bash %}
+  git remote add app-worker git@heroku.com:app-worker.git # one time only, add app-worker to git
+  git push heroku && git push heroku-worker # deploy to both
+{% endhighlight %}
     
 Heroku will spin down idle web dyno. Worker dyno should be up all the time. I didn't specifically test this out, but from [https://devcenter.heroku.com/articles/dynos#dyno-idling](https://devcenter.heroku.com/articles/dynos#dyno-idling) it only talks about web dyno. And so far all my jobs are completed.

@@ -13,37 +13,41 @@ Most solutions that I found are using production/staging branch. Which is not wh
 
 I added tag to heroku.yml for production stage, staging remains the same.
 
-    production:
-	    tag: staging/*
-	    ...
+{% highlight yaml %}
+  production:
+    tag: staging/*
+    ...
+{% endhighlight %}
 		
 Then I just paste from the example to heroku.rake, I removed ci from STAGES.
 
-  	STAGES = %w[staging production]
+{% highlight ruby %}
+  STAGES = %w[staging production]
 
-  	def create_and_push(stage)
-  	  auto_tag = AutoTagger::Base.new(stages: STAGES, stage: stage, verbose: true, push_refs: false, refs_to_keep: 100)
-  	  tag = auto_tag.create_ref(auto_tag.last_ref_from_previous_stage.try(:sha))
-  	  sh "git push origin #{tag.name}"
-  	  auto_tag.delete_locally
-  	  auto_tag.delete_on_remote
-  	end
-
-  	task :before_deploy do
-  	  sh "git fetch --tags"
-  	end
-
-  	task :after_deploy do
-  	  each_heroku_app do |stage|
-  	    create_and_push(stage.name)
-  	  end
-  	end
-
-  	namespace :autotag do
-  	  desc "Create an autotag for stage, default: #{STAGES.first}"
-  	  task :create, :stage do |t, args|
-  	    create_and_push(args[:stage] || STAGES.first)
-  	  end
-  	end
+  def create_and_push(stage)
+    auto_tag = AutoTagger::Base.new(stages: STAGES, stage: stage, verbose: true, push_refs: false, refs_to_keep: 100)
+    tag = auto_tag.create_ref(auto_tag.last_ref_from_previous_stage.try(:sha))
+    sh "git push origin #{tag.name}"
+    auto_tag.delete_locally
+    auto_tag.delete_on_remote
+  end
+  
+  task :before_deploy do
+    sh "git fetch --tags"
+  end
+  
+  task :after_deploy do
+    each_heroku_app do |stage|
+      create_and_push(stage.name)
+    end
+  end
+  
+  namespace :autotag do
+    desc "Create an autotag for stage, default: #{STAGES.first}"
+    task :create, :stage do |t, args|
+      create_and_push(args[:stage] || STAGES.first)
+    end
+  end
+{% endhighlight %}
 
 That's it. *rake staging deploy* will deploy to staging, then tag it with *staging/datetime*. *rake production deploy* will deploy anything tagged as *staging/\**.

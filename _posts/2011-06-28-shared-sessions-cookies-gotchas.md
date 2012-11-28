@@ -18,11 +18,15 @@ We want the session cookie to be shared within the subdomain. For example, forum
 
 It's easy to achieve that. You'll just have to modify *config/initializers/session_store.rb* and add *:domain* option. Like so,
 
-    MyApp::Application.config.session_store :cookie_store, :key => '_my_app_session', :domain => ".domain.com"
+{% highlight ruby %}
+  MyApp::Application.config.session_store :cookie_store, :key => '_my_app_session', :domain => ".domain.com"
+{% endhighlight %}
 
 That works, but it's not so cool since you'll have to hardcode domain name. Better solution would be to use *:all* value
 
-    MyApp::Application.config.session_store :cookie_store, :key => '_my_app_session', :domain => :all
+{% highlight ruby %}
+  MyApp::Application.config.session_store :cookie_store, :key => '_my_app_session', :domain => :all
+{% endhighlight %}
 
 That will make session cookie's host to be .domain.com or if your domain is google.com, it'll be .google.com. Cookie's host will follow what ever you current domain.
 
@@ -40,11 +44,15 @@ The solution is obvious, you just need to delete the old cookie and just read th
 
 I've searched high and low for better solution when it suddenly hits me. I don't need to delete the old cookie, I just need to make sure the app won't read it. Just invalidate the old cookie. Since I have a conflicted name, why don't just change the name? So I did, and it works like a charm. My new *session_store.rb* looks like this
 
-    MyApp::Application.config.session_store :cookie_store, :key => '_new_my_app_session', :domain => :all
+{% highlight ruby %}
+  MyApp::Application.config.session_store :cookie_store, :key => '_new_my_app_session', :domain => :all
+{% endhighlight %}
 
 For second problem, a quick workaround is to not use localhost. Use alias like app.local, local.my etc. Or just make sure shared domain not used in development mode, like so:
 
-    MyApp::Application.config.session_store :cookie_store, :key => '_new_my_app_session', :domain => Rails.env.development? ? nil : :all
+{% highlight ruby %}
+  MyApp::Application.config.session_store :cookie_store, :key => '_new_my_app_session', :domain => Rails.env.development? ? nil : :all
+{% endhighlight %}
 
 That's about it. Now the app runs smoothly for old and new users.
 

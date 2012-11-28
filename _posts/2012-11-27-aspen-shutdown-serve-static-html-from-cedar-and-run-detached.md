@@ -11,36 +11,46 @@ I quickly pulled down the code. After quick check, it was a rails app during the
 
 First we must make sure *index.php* exists. I copied my *index.html* to *index.php*. I've copied my html and stylesheet to new directory.
 
-    cp index.{html,php}
+{% highlight bash %}
+  cp index.{html,php}
+{% endhighlight %}
     
 To understand why we need *index.php*, we can have a look at how heroku-buildpack-php detect it. The code is here [https://github.com/heroku/heroku-buildpack-php/blob/master/bin/detect](https://github.com/heroku/heroku-buildpack-php/blob/master/bin/detect). The exact line is
 
-    if [ -f $1/index.php ]; then
+{% highlight bash %}
+  if [ -f $1/index.php ]; then
+{% endhighlight %}
     
 Then we turn off php engine
 
-    echo 'php_flag engine off' > .htaccess
+{% highlight bash %}
+  echo 'php_flag engine off' > .htaccess
+{% endhighlight %}
     
 Commit everything, create new Cedar stack and push!
 
-    git init . 
-    git add .
-    git commit -am 'initial commit'
-    heroku apps:create 
-    git push heroku
-    heroku open
+{% highlight bash %}
+  git init . 
+  git add .
+  git commit -am 'initial commit'
+  heroku apps:create 
+  git push heroku
+  heroku open
+{% endhighlight %}
     
 If everything is cool we can delete the Aspen app and add back our custom domain to the new Cedar app.
 
 Another thing I learned today is how to run task in background. There are places where port 5000 is blocked and running *heroku run rake db:migrate* always ended up with time out connecting to process. To bypass that, we just run it in background with *run:detached*
 
-    heroku run:detached rake db:migrate
-    
-    Output:
-    Running `rake db:migrate` detached... up, run.4271
-    Use `heroku logs -p run.4271` to view the output.
-    
-    heroku logs -p run.4271 # To view log
+{% highlight bash %}
+  heroku run:detached rake db:migrate
+  
+  Output:
+  Running `rake db:migrate` detached... up, run.4271
+  Use `heroku logs -p run.4271` to view the output.
+  
+  heroku logs -p run.4271 # To view log
+{% endhighlight %}
     
 You can read more here [https://devcenter.heroku.com/articles/oneoff-admin-ps#running-tasks-in-background](https://devcenter.heroku.com/articles/oneoff-admin-ps#running-tasks-in-background)
     

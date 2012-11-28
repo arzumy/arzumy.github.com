@@ -10,31 +10,33 @@ I've been using [jekyll](https://github.com/mojombo/jekyll) to run this site sin
 Now that I'm starting to convert this site to a blog, I've been using jekyll as it's intended to be. I got to learn a bit more about it. Specifically the syntaxes for [liquid](https://github.com/Shopify/liquid), template engine used in jekyll.
 
 Since this is a blog, having [atom.xml](/atom.xml) for feed is not a bad idea. I just copied (yes, this pattern starting to emerge now) from [Tom Preston-Werner's](https://github.com/mojombo/mojombo.github.com/blob/master/atom.xml) blog and edited it a bit.
- 
-    <?xml version="1.0" encoding="utf-8"?>
-    <feed xmlns="http://www.w3.org/2005/Atom">
- 
-     <title>{{ "{{ site.title " }}}} - {{ "{{ site.tagline " }}}}</title>
-     <link href="{{ "{{ site.production_url " }}}}/atom.xml" rel="self"/>
-     <link href="{{ "{{ site.production_url " }}}}"/>
-     <updated>{{ "{{ site.time | date_to_xmlschema " }}}}</updated>
-     <id>{{ "{{ site.production_url " }}}}</id>
-     <author>
-       <name>{{ "{{ site.author.name " }}}}</name>
-       <email>{{ "{{ site.author.email " }}}}</email>
-     </author>
 
-     {{ "{% for post in site.posts " }}%}
-     <entry>
-       <title>{{ post.title }}</title>
-       <link href="{{ "{{ site.production_url " }}}}{{ "{{ post.url " }}}}"/>
-       <updated>{{ "{{ post.date | date_to_xmlschema " }}}}</updated>
-       <id>{{ "{{ site.production_url " }}}}{{ "{{ post.id " }}}}</id>
-       <content type="html">{{ "{{ post.content | xml_escape " }}}}</content>
-     </entry>
-     {{ "{% endfor " }}%}
- 
-    </feed>
+{% highlight xml %}
+  <?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+  
+   <title>{{ "{{ site.title " }}}} - {{ "{{ site.tagline " }}}}</title>
+   <link href="{{ "{{ site.production_url " }}}}/atom.xml" rel="self"/>
+   <link href="{{ "{{ site.production_url " }}}}"/>
+   <updated>{{ "{{ site.time | date_to_xmlschema " }}}}</updated>
+   <id>{{ "{{ site.production_url " }}}}</id>
+   <author>
+     <name>{{ "{{ site.author.name " }}}}</name>
+     <email>{{ "{{ site.author.email " }}}}</email>
+   </author>
+  
+   {{ "{% for post in site.posts " }}%}
+   <entry>
+     <title>{{ post.title }}</title>
+     <link href="{{ "{{ site.production_url " }}}}{{ "{{ post.url " }}}}"/>
+     <updated>{{ "{{ post.date | date_to_xmlschema " }}}}</updated>
+     <id>{{ "{{ site.production_url " }}}}{{ "{{ post.id " }}}}</id>
+     <content type="html">{{ "{{ post.content | xml_escape " }}}}</content>
+   </entry>
+   {{ "{% endfor " }}%}
+  
+  </feed>
+{% endhighlight %}
 
 But if you look at the loop
 

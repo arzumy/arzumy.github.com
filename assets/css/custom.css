@@ -1,5 +1,9 @@
 /* Custom CSS */
 
+code, pre {
+  font-size: 11px;
+}
+
 .newfooter {
   font-size: 12px;
   line-height: 18px;
