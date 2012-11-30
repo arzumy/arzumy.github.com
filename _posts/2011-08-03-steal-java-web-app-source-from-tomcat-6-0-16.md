@@ -23,7 +23,7 @@ This entry on Security Tracker: [Tomcat UTF-8 'AllowLinking' Java Bug Lets Remot
 
 Ok, so now we know we probably could download files. But we don't know what file we want to pull. Time to learn about Java and Tomcat.
 
-[Deploying Web Applications to Tomcat](http://oreilly.com/java/archive/tomcat.html) from O'Reilly shows us exactly that. It was a post from 2001, but quick check on other search results showed that the deployment hasn't changed much. The most interesting part was one [page 5](http://oreilly.com/pub/a/java/archive/tomcat.html?page=5) where we learned that Java Web App file would be packaged to a single `.war` file and stored in the web app's directory. Wait, does that mean we can just download `.war` file and we would get the complete source code of the app? Really?
+[Deploying Web Applications to Tomcat](http://oreilly.com/java/archive/tomcat.html) from O'Reilly shows us exactly that. It was a post from 2001, but quick check on other search results showed that the deployment hasn't changed much. The most interesting part was on [page 5](http://oreilly.com/pub/a/java/archive/tomcat.html?page=5) where we learned that Java Web App file would be packaged to a single `.war` file and stored in the web app's directory. Wait, does that mean we can just download `.war` file and we would get the complete source code of the app? Really?
 
 I guess there's only one way to find out then.
 
