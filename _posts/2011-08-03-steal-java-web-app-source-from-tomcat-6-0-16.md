@@ -48,7 +48,7 @@ Nice. Now to extract the package we can use `jar` command.
 
 That will extract everything to current directory. While it is nice to see everything is in there, we can't do anything much because all the `.class` file are unreadable to human being. There are many decompilers out there. Back then I used `jad` but it's no longer being maintained. Mirror download available from [http://www.varaneckas.com/jad/](http://www.varaneckas.com/jad/). Today I just downloaded [JD-GUI](http://java.decompiler.free.fr/?q=jdgui), that works too.
 
-UPDATED: This will decompile `.class` to `.java` in `src` directory using `jad`.
+UPDATE: This will decompile `.class` to `.java` in `src` directory using `jad`.
 
 {% highlight bash %}
   find . -iname "*.class" | xargs /path/to/jad -r -sjava -d src
