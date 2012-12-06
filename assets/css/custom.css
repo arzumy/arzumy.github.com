@@ -18,3 +18,7 @@ code {
 .mini-layout.fluid .mini-layout-sidebar {
   height: auto;
 }
+
+.page-header {
+  margin: 20px 0;
+}
