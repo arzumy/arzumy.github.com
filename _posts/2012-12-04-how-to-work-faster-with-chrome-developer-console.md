@@ -24,4 +24,4 @@ But, he did show something else too. `$_` to get the last returned value in cons
   => 4
 {% endhighlight %}
 
-And that one wasn't documented in [https://developers.google.com/chrome-developer-tools/docs/console](https://developers.google.com/chrome-developer-tools/docs/console) yet. Nor supported by [Firebug's Command Line API](http://getfirebug.com/wiki/index.php/Command_Line_API) too.
+And that one wasn't documented in [https://developers.google.com/chrome-developer-tools/docs/console](https://developers.google.com/chrome-developer-tools/docs/console) yet. Not supported by [Firebug's Command Line API](http://getfirebug.com/wiki/index.php/Command_Line_API) too.
