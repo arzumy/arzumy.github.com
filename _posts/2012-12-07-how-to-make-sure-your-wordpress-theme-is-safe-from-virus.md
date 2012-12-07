@@ -5,7 +5,7 @@ tags : [virus, php, wordpress, scanner]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>
 
-I got to help a friend cleaning up his [Wordpress](http://wordpress.org/) installation from viruses today. Hosting provider emailed and pointed us to the exact files with virus. I'm using virus term loosely, they were actually [PHP backdoor shells](http://en.wikipedia.org/wiki/Backdoor_Shell).
+I helped a friend cleaning up his [Wordpress](http://wordpress.org/) installation from viruses today. Hosting provider emailed and pointed us to the exact files with virus. I'm using virus term loosely, they were actually [PHP backdoor shells](http://en.wikipedia.org/wiki/Backdoor_Shell).
 
 I don't use Wordpress that much. I think I have few installations here and there, mostly left forgotten. So today I got to learn about basic safety when dealing with Wordpress.
 
