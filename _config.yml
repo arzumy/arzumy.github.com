@@ -9,3 +9,35 @@ meta:
   
 pygments: true
 permalink: /:title
+
+content:
+  talks:
+    -
+      date: 25 Aug 2012
+      url: "https://www.youtube.com/watch?v=3q5UQ4N5hy0"
+      title: "Ruby on Rails Malaysia Meetup - How We Deploy SAYS.com (unedited Google Hangout)"
+    -
+      date: 28 Sep 2011
+      url: "http://webcamp.my/2011/10/arzumy-md-%E2%80%94-i-paul-the-octopus/"
+      title: "WebCamp Neun: WCKL All-Stars - “I, Paul the Octopus”"
+    -
+      date: 27 Oct 2010
+      url: "http://www.slideshare.net/arzumy/webcampkl-9-30second-tips-to-happiness-16-apps-in-8-minutes"
+      title: "WebCampKL 9 - 30-second Tips To Happiness. 16 Apps In 8 Minutes"
+    -
+      date: 24 Feb 2009
+      url: "http://www.slideshare.net/arzumy/ruby-on-rails-kickass"
+      title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"  
+  interviews:
+    -
+      date: 12 Jan 2012
+      url: "http://bfm.my/lifehacks.html"
+      title: "BFM 89.9: The Business Station - Lifehacks"
+    -
+      date: 28 Sep 2011
+      url: "http://www.bfm.my/techtalk_hackweekday2011.html"
+      title: "BFM 89.9: The Business Station - HackWEEKDAY 2011"
+    -
+      date: 01 Sep 2005
+      url: "http://www.nib.com.my/archives/text/view/9426915?pos=3&hide_header=1&resultset=nstpec%3Awww/cross-search/search.php%3A_1355414435%3Aresultset"
+      title: "New Straits Times: Computimes - Hacking competition winners"

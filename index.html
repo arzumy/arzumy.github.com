@@ -16,31 +16,20 @@ title: arzumy md
     </div> 
     <div class="tab-pane" id="interviews">         
       <ul class="unstyled">
-        <li>
-          <span class="label label-info">12 Jan 2012</span> <a href="http://bfm.my/lifehacks.html">BFM 89.9: The Business Station - Lifehacks</a>
-        </li>
-        <li>
-          <span class="label label-info">28 Sep 2011</span> <a href="http://www.bfm.my/techtalk_hackweekday2011.html">BFM 89.9: The Business Station - HackWEEKDAY 2011</a>
-        </li>        
-        <li>
-          <span class="label label-info">01 Sep 2005</span> <a href="http://www.nib.com.my/archives/text/view/9426915?pos=3&hide_header=1&resultset=nstpec%3Awww/cross-search/search.php%3A_1355414435%3Aresultset">New Straits Times: Computimes - Hacking competition winners</a>
-        </li> 
+        {% for interview in site.content.interviews %}
+          <li>
+            <span class="label label-info">{{ interview.date }}</span> <a href="{{ interview.url }}">{{ interview.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
     <div class="tab-pane" id="talks">         
       <ul class="unstyled">
-        <li>
-          <span class="label label-info">25 Aug 2012</span> <a href="https://www.youtube.com/watch?v=3q5UQ4N5hy0&feature=player_embedded">Ruby on Rails Malaysia Meetup - How We Deploy SAYS.com (unedited Google Hangout)</a>
-        </li>        
-        <li>
-          <span class="label label-info">28 Sep 2011</span> <a href="http://webcamp.my/2011/10/arzumy-md-%E2%80%94-i-paul-the-octopus/">WebCamp Neun: WCKL All-Stars - “I, Paul the Octopus”</a>
-        </li>
-        <li>
-          <span class="label label-info">27 Oct 2010</span> <a href="http://www.slideshare.net/arzumy/webcampkl-9-30second-tips-to-happiness-16-apps-in-8-minutes">WebCampKL 9 - 30-second Tips To Happiness. 16 Apps In 8 Minutes</a>
-        </li>        
-        <li>
-          <span class="label label-info">24 Feb 2009</span> <a href="http://www.slideshare.net/arzumy/ruby-on-rails-kickass">MDeC Preseed Meetup - Ruby on Rails Kick-ass</a>
-        </li>
+        {% for talk in site.content.talks %}
+          <li>
+            <span class="label label-info">{{ talk.date }}</span> <a href="{{ talk.url }}">{{ talk.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>    
   </div>
