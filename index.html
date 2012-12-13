@@ -3,8 +3,33 @@ layout: page
 title: arzumy md
 ---
 
-<ul class="unstyled">
-  {% for post in site.posts %}
-    <li><span class="label label-info">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="tabbable tabs-below">
+  <div class="tab-content">
+    <div class="tab-pane active" id="posts">
+      <ul class="unstyled">
+        {% for post in site.posts %}
+          <li>
+            <span class="label label-info">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div> 
+    <div class="tab-pane" id="interviews">         
+      <ul class="unstyled">
+        <li>
+          <span class="label label-info">12 Jan 2012</span> <a href="http://bfm.my/lifehacks.html">BFM 89.9: The Business Station - Lifehacks</a>
+        </li>
+        <li>
+          <span class="label label-info">28 Sep 2011</span> <a href="http://www.bfm.my/techtalk_hackweekday2011.html">BFM 89.9: The Business Station - HackWEEKDAY 2011</a>
+        </li>        
+        <li>
+          <span class="label label-info">01 Sep 2005</span> <a href="http://www.nib.com.my/archives/text/view/9426915?pos=3&hide_header=1&resultset=nstpec%3Awww/cross-search/search.php%3A_1355414435%3Aresultset">New Straits Times: Computimes - Hacking competition winners</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#posts" data-toggle="tab">Posts</a></li>
+    <li><a href="#interviews" data-toggle="tab">Interviews</a></li>
+  </ul>
+</div>
