@@ -27,7 +27,7 @@ Since this is a blog, having [atom.xml](/atom.xml) for feed is not a bad idea. I
   
    {{ "{% for post in site.posts " }}%}
    <entry>
-     <title>{{ post.title }}</title>
+     <title>{{ "{{ post.title " }}}}</title>
      <link href="{{ "{{ site.production_url " }}}}{{ "{{ post.url " }}}}"/>
      <updated>{{ "{{ post.date | date_to_xmlschema " }}}}</updated>
      <id>{{ "{{ site.production_url " }}}}{{ "{{ post.id " }}}}</id>
