@@ -8,6 +8,10 @@ code {
   color: #333333;
 }
 
+.footnotes p {
+	display: inline;
+}
+
 .newfooter {
   font-size: 12px;
   line-height: 18px;
