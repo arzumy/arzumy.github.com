@@ -26,3 +26,8 @@ code {
 .page-header {
   margin: 20px 0;
 }
+
+.posts-images {
+	text-align: center;
+	margin-bottom: 20px;
+}
