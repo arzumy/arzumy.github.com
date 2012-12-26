@@ -15,4 +15,4 @@ If you hear a dial tone. You are good to go.
 
 I didn't think much about it back then. I was just a kid, excited to hear stories about soldiers. Little did I know that this knowledge would come back and got me into all sort of troubles 7 years later.
 
-[^fn-liars]: Ian Leslie would argue that this all may be just my imagination. Read his book, [Born Liars: Why We Can't Live Without Deceit](http://amzn.to/V43CNe)
+[^fn-liars]: [Ian Leslie](https://twitter.com/mrianleslie) would argue that this may be just my imagination. Read his book, [Born Liars: Why We Can't Live Without Deceit](http://amzn.to/V43CNe)
