@@ -19,7 +19,7 @@ Here's how we did that:
     This is a footnote[^fn-sample] 
     [^fn-sample]: Now I gotta cut loose. Footloose, kick off the Sunday shoes. Click this to go back up >>
 
-All you need is to have `[^fn-anchor_name_here]` for the link and `[^fn-anchor_name_here]:` for the footnote. Ideally since it's a footnote, you should place `[^fn-anchor_name_here]:` on the bottom. But hey, entirely up to you! With this syntax, you'll get `<sup></sup>` tag for free with link to the anchor and running numbers for all footnotes on the same page.
+All you need is to have `[^anchor_name_here]` for the link and `[^anchor_name_here]:` for the footnote. The key is to start with `[^]`. Ideally since it's a footnote, you should place `[^anchor_name_here]:` on the bottom. But hey, entirely up to you! With this syntax, you'll get `<sup></sup>` tag for free with link to the anchor and running numbers for all footnotes on the same page.
 
 I intentionally left a blank space here so you can test the link and actually move from the number to footnote back and forth.
 
