@@ -5,7 +5,7 @@ tags : [heroku, config, cert]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>
 
-In my latest project, [Malaysia Twitter Political Index](http://election.gv.my/), I used [Google Prediction API](https://developers.google.com/prediction/) and hosted it on [Heroku](http://heroku.com). To use Google API, you have to create Client ID to authenticate with the endpoints. Since I'm calling the API directly from the server, not end user, I have to create [Service Accounts](https://developers.google.com/console/help/#service_accounts) client ID.
+In my latest project, [Malaysia Twitter Political Index](http://bit.ly/myelection), I used [Google Prediction API](https://developers.google.com/prediction/) and hosted it on [Heroku](http://heroku.com). To use Google API, you have to create Client ID to authenticate with the endpoints. Since I'm calling the API directly from the server, not end user, I have to create [Service Accounts](https://developers.google.com/console/help/#service_accounts) client ID.
 
 Google generated a key pair for me. I then downloaded the private key and I would use it in my app. The key is formatted with [PKCS #12](http://www.rsa.com/rsalabs/node.asp?id=2138).
 

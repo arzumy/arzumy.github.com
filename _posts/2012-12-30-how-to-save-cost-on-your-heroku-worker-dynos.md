@@ -5,7 +5,7 @@ tags : [heroku, dynos]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>
 
-On [Malaysia Twitter Political Index](http://election.gv.my/) project, I'm using [delayed job](https://github.com/collectiveidea/delayed_job) extensively. I used it to pull tweets, query sentiments and update sentiments. These jobs created every 10 minutes by [Heroku Scheduler](https://addons.heroku.com/scheduler), Heroku's answer to traditional cron job.
+On [Malaysia Twitter Political Index](http://bit.ly/myelection) project, I'm using [delayed job](https://github.com/collectiveidea/delayed_job) extensively. I used it to pull tweets, query sentiments and update sentiments. These jobs created every 10 minutes by [Heroku Scheduler](https://addons.heroku.com/scheduler), Heroku's answer to traditional cron job.
 
 These jobs took about 2 or 3 minutes to finish. While waiting for the next cron job, worker dyno are idle for 7 or 8 minutes. I don't like it because I have to pay for it!
 

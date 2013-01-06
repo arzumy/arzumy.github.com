@@ -9,6 +9,7 @@ meta:
   
 pygments: true
 permalink: /:title
+markdown: rdiscount
 
 content:
   talks:
