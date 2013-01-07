@@ -35,11 +35,11 @@ Let's test it out on this blog.
     &p[url]=http://ar.zu.my
     &p[images][0]=http://www.gravatar.com/avatar/2f8ec4a9ad7a39534f764d749e001046.png
     &p[title]=Rock on Arzumy!
-    &p[summary]=In this blog, Arzumy will teach you how to rock!>Customize Share</a>
+    &p[summary]=In this blog, Arzumy will teach you how to rock!>Customized Share</a>
 
 <div style="text-align:center">
 <a href="http://www.facebook.com/sharer.php?u=http://ar.zu.my&t=Rock on Arzumy!" class="btn btn-primary" target="_blank">Share</a>
-<a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://ar.zu.my&p[images][0]=http://www.gravatar.com/avatar/2f8ec4a9ad7a39534f764d749e001046.png&p[title]=Rock on Arzumy!&p[summary]=In this blog, Arzumy will teach you how to rock!" class="btn btn-primary" target="_blank">Customize Share</a>
+<a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://ar.zu.my&p[images][0]=http://www.gravatar.com/avatar/2f8ec4a9ad7a39534f764d749e001046.png&p[title]=Rock on Arzumy!&p[summary]=In this blog, Arzumy will teach you how to rock!" class="btn btn-primary" target="_blank">Customized Share</a>
 </div>
 
 Go ahead test it out :)
