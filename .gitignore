@@ -1,2 +1,3 @@
 _tasks/*
 _site
+.DS_store
