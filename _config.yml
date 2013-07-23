@@ -31,6 +31,10 @@ content:
       title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"  
   interviews:
     -
+      date: 23 Jul 2013
+      url: "http://e27.co/2013/07/23/aws-strengthens-commitment-to-sea-as-tech-startup-growth-increases/"
+      title: "AWS strengthens commitment to SEA as tech startup growth increases"
+    -
       date: 12 Jan 2012
       url: "http://bfm.my/lifehacks.html"
       title: "BFM 89.9: The Business Station - Lifehacks"
