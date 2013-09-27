@@ -6,13 +6,17 @@ author:
   email: hello@ar.zu.my
 meta:
   description: Arzumy MD is a CTO and founding team member at SAYS.com. A rubyist and a tactical hacker. Recently built Groupon Malaysia and worked together with Pivotal Labs on Friendster.
-  
+
 pygments: true
 permalink: /:title
 markdown: rdiscount
 
 content:
   talks:
+    -
+      date: 25 Sep 2013
+      url: "http://www.ustream.tv/recorded/39221149"
+      title: "Webcamp Koko Crunch - Cash Payment in Malaysia"
     -
       date: 25 Aug 2012
       url: "https://www.youtube.com/watch?v=3q5UQ4N5hy0"
