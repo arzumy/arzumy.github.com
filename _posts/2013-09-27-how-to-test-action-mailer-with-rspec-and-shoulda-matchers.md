@@ -22,10 +22,4 @@ After upgrade, I got this error:
 
 A quick peek at the source shows the error is right (because your know, error messages could lie to you), ActionMailer matchers not included in shoulda-matchers anymore. I can have the same functionalities in Mail itself. Read more from [Using Mail with Testing or Spec'ing Libraries](http://rdoc.info/github/mikel/mail#Using_Mail_with_Testing_or_Spec_ing_Libraries).
 
-Now, I just need to remove those two lines in my `spec/spec_helper.rb` and replace it with this:
-
-{% highlight ruby %}
-  include Mail::Matchers
-{% endhighlight %}
-
-The matchers directly copied from shoulda-matchers, nothing else changed in my spec suite.
+Now, I just need to replace `include Shoulda::Matchers::ActionMailer` with `include Mail::Matchers`. Because the matchers directly copied from shoulda-matchers, no further change needed.
