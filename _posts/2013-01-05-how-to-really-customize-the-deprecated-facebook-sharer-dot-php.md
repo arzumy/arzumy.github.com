@@ -9,7 +9,7 @@ tags : [facebook, sharer]
 
 It is easy to use. You don't need an App ID, and you don't need to include any Facebook dependencies. But because it is not supported and documented, you are bound to be surprised by any changes made by Facebook.
 
-In my case, I want to include `sharer.php` on [Malaysia Twitter Political Index](http://bit.ly/myelection). I want to user to be able to share it on Facebook, and I want to customize the title on daily basis. Previously you can just do this:
+In my case, I want to include `sharer.php` on [Malaysia Twitter Political Index](http://bit.ly/myelection). I want the user to be able to share it on Facebook, and I want to customize the title on daily basis. Previously you can just do this:
 
     http://www.facebook.com/sharer.php?u=http://bit.ly/myelection&t=Here's my customized title
 
@@ -43,3 +43,5 @@ Let's test it out on this blog.
 </div>
 
 Go ahead test it out :)
+
+Update: 2nd October 2013, Facebook no longer honour `p[images][0]`. Other parameters still usable.
