@@ -18,7 +18,7 @@ I searched the error message and it yielded bunch of similiar results. The commo
 
 Here's the gotcha: Ubuntu comes with [AppArmor](https://wiki.ubuntu.com/AppArmor). AppArmor's security model is to bind access control attributes to programs rather than to users. In my `/etc/apparmor.d/usr.sbin.mysqld` file I've made these changes:
 
-{% highlight %}
+{% highlight bash %}
   ...
   # Disable these two lines
   /var/lib/mysql/ r,
@@ -32,7 +32,7 @@ Here's the gotcha: Ubuntu comes with [AppArmor](https://wiki.ubuntu.com/AppArmor
 
 While it seems correct, there's actually a typo in `/example_ssd_partition/mysql/data r,`, it should be `/example_ssd_partition/mysql/data/ r,` instead. I missed out a forward slash after /example_ssd_partition/mysql/data. Because of that, while everything in `/example_ssd_partition/mysql/data/` owned by mysql user, the program itself has no access to the content of the directory. I've changed it to:
 
-{% highlight %}
+{% highlight bash %}
   ...
   /example_ssd_partition/mysql/data/ r,
   /example_ssd_partition/mysql/data/** rwk,
