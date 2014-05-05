@@ -35,6 +35,10 @@ content:
       title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"  
   interviews:
     -
+      date: 23 Apr 2014
+      url: "http://www.digitalnewsasia.com/sizzle-fizzle/taking-paper-out-of-the-billing-equation-with-billplz"
+      title: "Taking paper out of the billing equation with Billplz"
+    -
       date: 25 Sep 2013
       url: "http://www.ustream.tv/recorded/39221620"
       title: "WebcampKL Koko Crunch - Q&A Session"
