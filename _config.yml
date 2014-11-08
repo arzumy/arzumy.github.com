@@ -5,7 +5,7 @@ author:
   name: Arzumy MD
   email: hello@ar.zu.my
 meta:
-  description: Arzumy MD is a CTO and founding team member at SAYS.com. A rubyist and a tactical hacker. Recently built Groupon Malaysia and worked together with Pivotal Labs on Friendster.
+  description: Arzumy MD is a CTO at REV Asia & Billplz. Enjoys helping out tech startups. Loves building great team. Runs a lot.
 
 pygments: true
 permalink: /:title
@@ -32,7 +32,7 @@ content:
     -
       date: 24 Feb 2009
       url: "http://www.slideshare.net/arzumy/ruby-on-rails-kickass"
-      title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"  
+      title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"
   interviews:
     -
       date: 23 Apr 2014
