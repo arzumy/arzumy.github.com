@@ -5,11 +5,11 @@ tags : [phreaker, memoir]
 ---
 <p><small>Circa 1990</small></p>
 
-I remember it clearly[^fn-liars]. 
+I remember it clearly[^fn-liars].
 
-My father and I was in a bus going to Seremban. He talked about his experiences in the army. His rank was Lance Corporal and was in charged with the telecommunication. He said when they were on a mission, they would bring along a phone. This phone would have its cable cut off.
+My father and I were on a bus going to Seremban. He talked about his experiences in the army. His rank was Lance Corporal and in charged of the telecommunication. He said when they were on a mission, they would bring along a phone. This phone would have its cable cut off.
 
-He said after you cut the cable, it exposed two separate lines, copper wires. He then tied up those lines to two pins, one for each line. If they need to make phone calls they would find a public phone. Get the public phone's cable and jab the pins in so the pins would touched those copper wires inside.
+He said after you cut the cable, it exposed two separate lines, copper wires. He then tied up those lines to two pins, one for each line. If they need to make phone calls they would find a public phone. Get the public phone's cable and jab the pins in so the pins would touch those copper wires inside.
 
 If you hear a dial tone. You are good to go.
 
