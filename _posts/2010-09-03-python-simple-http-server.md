@@ -5,7 +5,7 @@ tags : [python, web, server, tips]
 ---
 <p><small>{{ page.date | date_to_long_string }}</small></p>
 
-Every now and then I need to serve something over HTTP. Most of the times, it was to test out JavaScript with callbacks. It won't run simply by double clicking the sample HTML file, you need to serve everything. 
+Every now and then I need to serve something over HTTP. Most of the times, it was to test out JavaScript with callbacks. It won't run by double clicking the sample HTML file, you need to serve everything.
 
 With python simple HTTP server, all I need to do is just drop in the directory and run:
 
