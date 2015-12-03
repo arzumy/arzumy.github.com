@@ -5,21 +5,21 @@ tags : [terminal, bash, productivity, tips]
 ---
 <p><small>Early 2011</small></p>
 
-One of benefit of pair programming is you got to learn things that you don't even know you need to learn. When I paired with [Mike Mazur](http://mmazur.com/), one of the [Pivotal Labs](http://pivotallabs.com/)[^fn-neo] engineer, I got to learn a very useful trick. 
+One of a benefit of pair programming is you got to learn things that you don't even know you need to learn. When I paired with [Mike Mazur](http://mmazur.com/), one of the [Pivotal Labs](http://pivotallabs.com/)[^fn-neo] engineer, I got to learn a very useful trick.
 
-Normally when I want to refer back to commands that I've used before, I'd do this:
+When I want to refer to commands that I've used before, I'd do this:
 
 {% highlight bash %}
   history | grep previous_command
 {% endhighlight %}
 
-Then I'd cut and paste the result to execute. Not ideal, but it worked for me. Because I didn't know better. 
+Then I'd cut and paste the result to execute. Not ideal, but it worked for me. Because I didn't know better.
 
 Until he showed me the right way of doing it. Comes reverse-i-search. All you need to do is press `ctrl + r` in terminal and start typing the command you want to search for. For example, I want to search for `server`:
 
 {% highlight bash %}
   ctrl + r
-  serv 
+  serv
   => (reverse-i-search)`serv': jekyll --server --auto
 {% endhighlight %}
 
