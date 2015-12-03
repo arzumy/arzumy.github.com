@@ -14,9 +14,25 @@ markdown: rdiscount
 content:
   talks:
     -
+      date: 27 Jun 2015
+      url: "https://academy.mymagic.my/events/event/product-management-workshop-series/"
+      title: "MaGIC Academy - Product Management Series Workshop"
+    -
+      date: 07 Feb 2015
+      url: "https://www.youtube.com/watch?v=ZpHH4rBP-S0"
+      title: "MaGIC Academy - You Have An Idea? Great! Now What Are You Gonna Do About It"
+    -
+      date: 15 Oct 2014
+      url: "https://www.youtube.com/watch?v=LiotgJQAz7E"
+      title: "MSA Launch 2014 - MVP Prototyping In An Agile Environment – Ship Product Fast!"
+    -
       date: 25 Sep 2013
       url: "http://www.ustream.tv/recorded/39221149"
       title: "WebcampKL Koko Crunch - Cash Payment in Malaysia"
+    -
+      date: 25 Sep 2013
+      url: "http://www.ustream.tv/recorded/39221620"
+      title: "WebcampKL Koko Crunch - Q&A Session"
     -
       date: 25 Aug 2012
       url: "https://www.youtube.com/watch?v=3q5UQ4N5hy0"
@@ -33,15 +49,19 @@ content:
       date: 24 Feb 2009
       url: "http://www.slideshare.net/arzumy/ruby-on-rails-kickass"
       title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"
-  interviews:
+  news:
+    -
+      date: 27 Jul 2015
+      url: "https://www.digitalnewsasia.com/node/45031"
+      title: "Joel Neoh’s funding strategy to maximize equity"
+    -
+      date: 25 May 2014
+      url: "https://www.youtube.com/watch?v=IE85QZPTOxQ"
+      title: "AlphaStartups | Pre-Accelerator"
     -
       date: 23 Apr 2014
       url: "http://www.digitalnewsasia.com/sizzle-fizzle/taking-paper-out-of-the-billing-equation-with-billplz"
       title: "Taking paper out of the billing equation with Billplz"
-    -
-      date: 25 Sep 2013
-      url: "http://www.ustream.tv/recorded/39221620"
-      title: "WebcampKL Koko Crunch - Q&A Session"
     -
       date: 23 Jul 2013
       url: "http://e27.co/2013/07/23/aws-strengthens-commitment-to-sea-as-tech-startup-growth-increases/"
