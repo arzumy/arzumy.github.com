@@ -32,17 +32,17 @@ That will make session cookie's host to be .domain.com or if your domain is goog
 
 **Problem**
 
-They are two major problems when you deploy the code. First, current users now locked to their current session state. If they are logged in, they can't logout and vice versa. This happens because we now have two session cookies with same name `_my_app_session` but with different host. And when you have that situation, cookie with matching host will take precedence. Hence, we are reading the old cookie (the one with host www.domain.com) which is wrong, so our session is messed up.
+They are two major problems when you deploy the code. First, current users now locked to their current session state. If they are logged in, they can't logout and vice versa. This happens because we now have two session cookies with same name `_my_app_session` but with a different host. And when you have that situation, cookie with matching host will take precedence. Hence, we are reading the old cookie (the one with host www.domain.com) which is wrong, so our session is messed up.
 
-User could fix this by clearing up the browser's cookies. But that's totally uncool. Also, this won't affect new user, so that, on the other hand, is cool.
+The user could fix this by clearing up the browser's cookies. But that's totally uncool. Also, this won't affect the new user, so that, on the other hand, is cool.
 
-Second problem is, when working on development environment, visiting http://localhost:3000 won't work. Because we are expecting the cookie host to be .localhost but it's always saved as localhost. It will always be invalid.
+The second problem is when working on the development environment, visiting http://localhost:3000 won't work. Because we are expecting the cookie host to be .localhost but it's always saved as localhost. It will always be invalid.
 
 **Solution**
 
-The solution is obvious, you just need to delete the old cookie and just read the new one. But somehow the implementation wasn't that obvious to me at first. My first option was to add a line of code that will delete the old cookie. It works, but it's bad because it'll be a stale code after a while. That line will never be used once all old cookies delete, and never used on new users.
+The solution is obvious, you just need to delete the old cookie and just read the new one. But somehow the implementation wasn't that obvious to me at first. My first option was to add a line of code that will delete the old cookie. It works, but it's not good because it'll be a stale code after a while. That line will never be used once all old cookies delete, and never used on for users.
 
-I've searched high and low for better solution when it suddenly hits me. I don't need to delete the old cookie, I just need to make sure the app won't read it. Just invalidate the old cookie. Since I have a conflicted name, why don't just change the name? So I did, and it works like a charm. My new `session_store.rb` looks like this
+I've searched high and low for a better solution when it suddenly hits me. I don't need to delete the old cookie, I just need to make sure the app won't read it. Just invalidate the old cookie. Since I have a conflicted name, why don't just change the name? So I did, and it works like a charm. My new `session_store.rb` looks like this:
 
 {% highlight ruby %}
   MyApp::Application.config.session_store :cookie_store, :key => '_new_my_app_session', :domain => :all
