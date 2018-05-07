@@ -56,8 +56,4 @@ NOTE: If you want to use `<code>` tag to display liquid syntax like I did above,
       {{ "{% for post in site.posts limit:10 " }}%}
     {{ "{% endraw " }}%}
     
-UPDATE: [Github Pages](http://pages.github.com/) won't run `{{ "{% raw " }}%}`  plugin. So you can escape it with this instead 
-
-    {{ "{{ " }}"{{ "{% for post in site.posts limit:10" }} " }}{{ "}}%}
-    
 Credit goes to this [Stack Overflow answer](http://stackoverflow.com/questions/10154690/github-pages-isnt-applying-my-template).
