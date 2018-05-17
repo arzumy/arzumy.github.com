@@ -1,3 +1,5 @@
 _tasks/*
 _site
 .DS_store
+.vscode/*
+node_modules/*
