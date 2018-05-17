@@ -3,39 +3,36 @@ layout: page
 title: arzumy md
 ---
 
-<div class="tabbable tabs-below">
-  <div class="tab-content">
-    <div class="tab-pane active" id="posts">
-      <ul class="unstyled">
-        {% for post in site.posts %}
-          <li>
-            <span class="label label-info">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+
+<div class="ui pointing menu">
+  <a class="active item" data-tab="posts">
+    Posts
+  </a>
+  <a class="item" data-tab="talks">
+    Talks
+  </a>
+  <a class="item" data-tab="press">
+    Press
+  </a>
+</div>
+<div class="ui segments tab active" data-tab="posts">
+  {% for post in site.posts %}
+    <div class="ui segment">
+        <span class="ui red ribbon label">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
     </div>
-    <div class="tab-pane" id="news">
-      <ul class="unstyled">
-        {% for new in site.content.news %}
-          <li>
-            <span class="label label-info">{{ new.date }}</span> <a href="{{ new.url }}">{{ new.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+  {% endfor %}    
+</div>
+<div class="ui segments tab" data-tab="talks">
+  {% for new in site.content.news %}
+    <div class="ui segment">
+        <span class="ui blue ribbon label">{{ new.date }}</span> <a href="{{ new.url }}">{{ new.title }}</a>
     </div>
-    <div class="tab-pane" id="talks">
-      <ul class="unstyled">
-        {% for talk in site.content.talks %}
-          <li>
-            <span class="label label-info">{{ talk.date }}</span> <a href="{{ talk.url }}">{{ talk.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+  {% endfor %}    
+</div>
+<div class="ui segments tab" data-tab="press">
+  {% for talk in site.content.talks %}
+    <div class="ui segment">
+        <span class="ui grey ribbon label">{{ talk.date }}</span> <a href="{{ talk.url }}">{{ talk.title }}</a>
     </div>
-  </div>
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#posts" data-toggle="tab">Posts</a></li>
-    <li><a href="#talks" data-toggle="tab">Talks</a></li>
-    <li><a href="#news" data-toggle="tab">Press</a></li>
-  </ul>
+  {% endfor %}    
 </div>
