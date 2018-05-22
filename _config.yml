@@ -9,7 +9,7 @@ meta:
 
 highlighter: rogue
 permalink: /:title
-markdown: rdiscount
+markdown: kramdown
 
 content:
   talks:
