@@ -13,6 +13,14 @@ markdown: kramdown
 
 content:
   talks:
+    - 
+      date: 07 Oct 2016
+      url: https://www.youtube.com/watch?v=sPo0QEUMkwA
+      title: "KFIT Moves to AWS to Focus on its Lifestyle App and Expands to 8 Countries"
+    - 
+      date: 15 Aug 2015
+      url: https://www.youtube.com/watch?reload=9&v=dGMLYzTkgQo
+      title: "Change and Adapt to Your New Normal"
     -
       date: 27 Jun 2015
       url: "https://academy.mymagic.my/events/event/product-management-workshop-series/"
@@ -51,6 +59,30 @@ content:
       title: "MDeC Preseed Meetup - Ruby on Rails Kick-ass"
   news:
     -
+      date: 27 Apr 2018
+      url: https://my.asiatatler.com/generation-t/2018-list/arzumy-md
+      title: "Tatler Generation-T 2018"
+    -
+      date: 14 Sep 2017
+      url: https://www.bfm.my/ent-tt-from-groupon-to-fave-why-aws-was-crucial.html
+      title: "BFM - From Groupon To Fave: Why AWS Was Crucial"
+    -
+      date: 7 Sep 2017
+      url: https://www.najibrazak.com/tm/blog/sembang-santai-bajet2018/
+      title: "Prime Minister - Sembang Santai #Bajet2018"
+    -
+      date: 01 Sep 2017
+      url: http://www.pressreader.com/malaysia/hwm-malaysia/20170901/282230895847408
+      title: "HWM (Malaysia) - Startup Heroes"
+    -
+      date: 12 Apr 2016
+      url: https://www.techinasia.com/story-of-kfit
+      title: "Tech in Asia - How KFIT got to where it is today"  
+    -
+      date: 10 Feb 2016
+      url: https://vimeo.com/154855677
+      title: "WOBB Interview with KFIT’s Arzumy MD"
+    -
       date: 27 Jul 2015
       url: "https://www.digitalnewsasia.com/node/45031"
       title: "Joel Neoh’s funding strategy to maximize equity"
@@ -62,6 +94,10 @@ content:
       date: 23 Apr 2014
       url: "http://www.digitalnewsasia.com/sizzle-fizzle/taking-paper-out-of-the-billing-equation-with-billplz"
       title: "Taking paper out of the billing equation with Billplz"
+    - 
+      date: 23 Jul 2013
+      url: https://aws.amazon.com/blogs/aws/aws-empowering-the-startup-ecosystem-in-singapore/
+      title: AWS Summit - Winner Coding Challenge
     -
       date: 23 Jul 2013
       url: "http://e27.co/2013/07/23/aws-strengthens-commitment-to-sea-as-tech-startup-growth-increases/"
