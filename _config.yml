@@ -7,7 +7,7 @@ author:
 meta:
   description: Arzumy is prolific CTO with over 12 years of experience. He has led engineering teams in a wide range of industries from 020, Fitness, Fintech, and e-Commerce to Digital Media and Mobile Communication.
 
-highlighter: rogue
+highlighter: rouge
 permalink: /:title
 markdown: kramdown
 
