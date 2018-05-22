@@ -22,14 +22,14 @@ title: arzumy md
     </div>
   {% endfor %}    
 </div>
-<div class="ui segments tab" data-tab="talks">
+<div class="ui segments tab" data-tab="press">
   {% for new in site.content.news %}
     <div class="ui segment">
         <span class="ui blue ribbon label">{{ new.date }}</span> <a href="{{ new.url }}">{{ new.title }}</a>
     </div>
   {% endfor %}    
 </div>
-<div class="ui segments tab" data-tab="press">
+<div class="ui segments tab" data-tab="talks">
   {% for talk in site.content.talks %}
     <div class="ui segment">
         <span class="ui grey ribbon label">{{ talk.date }}</span> <a href="{{ talk.url }}">{{ talk.title }}</a>
