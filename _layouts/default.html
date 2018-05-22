@@ -6,29 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.meta.description }}">
     <meta name="author" content="{{ site.author.name }}">
-
     <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon" />
-
     <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
-    <script src="/semantic/dist/semantic.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="/assets/css/over.css">
   </head>
 	<body>
-		<div class="container">
-			<div class="row-fluid">
-	    	<div class="span8 offset2 mini-layout">
-	        {% include header.html %}
-					<h3>{{ page.title }}</h3>
-					{{ content }}
-					<a href="/">&laquo; back</a>
-	    	</div>
-    	</div>
-			{% include footer.html %}			
-		</div>
+		<div class="ui text container over">
+      {% include header.html %}
+      <div class="ui items">
+        <div class="item">
+          <div class="content">
+            <div class="header">{{ page.title }}</div>
+            <div class="content blog-content">
+              {{ content }}
+            </div>
+          </div>
+        </div>    
+      </div>
+      {% include footer.html %}
+    </div>
 		{% include javascripts.html %}
 	</body>
 </html>

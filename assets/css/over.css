@@ -1,3 +1,8 @@
 .over {
   padding: 10px 0 10px 0;
 }
+
+.blog-content > p {
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
