@@ -11,3 +11,7 @@ p > code {
   background-color: rgb(240, 240, 240);
   color: red;
 }
+
+code {
+  font-size: 0.8em;
+}
