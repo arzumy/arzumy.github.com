@@ -7,7 +7,7 @@ tags : [internship, startup, career]
 
 Sebelum kita mula, penting untuk aku buat _penafian_ dulu. Nasihat ini adalah untuk aku yang dulu, aku yang berumur 20 tahun berdasarkan situasi zaman sekarang. Ini bukan nasihat pelaburan untuk orang lain. Aku tak bertanggungjawab atas segala kerugian kalau kau ikut bulat-bulat nasihat ni. Dan kau kena ingat, matlamat kewangan kita tak sama, status kewangan kita tak sama, toleransi risiko kita tak sama.
 
-_Penafian #2_, kebanyakan pautan dalam artikel ni ada “affiliate links”. Kalau kau daftar mana-mana servis dari “affiliate links” kita sama-sama untung.
+_Penafian #2_, kebanyakan pautan dalam artikel ni ada referral links”. Kalau kau daftar mana-mana servis dari “referral links” kita sama-sama untung.
 
 _Penafian #3_, aku ada melabur atau mungkin akan melabur dalam aset-aset yang dinyatakan dalam artikel ni. 
 
@@ -31,7 +31,7 @@ Jadi kalau bukan ASB, dekat mana patut aku buat pelaburan? Kita boleh mula denga
 
 ## Stashaway
 
-Ada banyak “roboadvisor” sekarang, aku cadangkan Stashaway (boleh daftar di [https://www.stashaway.my/referrals/mdan2vk]()). Kenapa Stashaway? Kenapa bukan yang lain? Tak ada sebab tertentu pun. Aku sekarang pakai Stashaway, itu saja. 
+Ada banyak “roboadvisor” sekarang, aku cadangkan Stashaway (boleh daftar di [https://www.stashaway.my/referrals/mdan2vk](https://www.stashaway.my/referrals/mdan2vk)). Kenapa Stashaway? Kenapa bukan yang lain? Tak ada sebab tertentu pun. Aku sekarang pakai Stashaway, itu saja. 
 
 Bila kita melabur dalam Stashaway, senang kita nak tengok kadar keuntungan (atau kerugian). Ingat, matlamat kita tadi ada untuk bina tabiat melabur. Mungkin keuntungan dia nampak sedikit, tapi itu bukan masalah. Asalkan kita ada nampak hasil dari pelaburan kita. Barulah kita bersemangat nak melabur secara konsisten.
 
@@ -41,7 +41,7 @@ Kita akan gunakan fungsi “recurring deposit” untuk memudahkan pelaburan kita
 
 Sekarang kita dah ada RM 1,000, kita boleh mulakan simpanan untuk tabung kecemasan. Tabung kecemasan ini penting sebab kita tak tahu bila kita perlukan duit. Buat masa ini kita tetapkan jumlah tabung kecemasan adalah RM 1,200. Sama dengan gaji sebulan. 
 
-Untuk tabung kecemasan kita akan simpan dalam ASB. Sekarang dah senang, boleh buat di [https://www.myasnb.com.my/](). Kalau perlukan duit pun kita boleh keluarkan melalui myASNB.
+Untuk tabung kecemasan kita akan simpan dalam ASB. Sekarang dah senang, boleh buat di [https://www.myasnb.com.my/](https://www.myasnb.com.my/). Kalau perlukan duit pun kita boleh keluarkan melalui myASNB.
 
 Jadi buat masa sekarang, kita hentikan “recurring deposit” ke Stashaway dan simpan bulanan di ASB sampai cukup RM 1,200. Bila gaji dah naik ke RM 2,400, kita tambah lagi pelaburan ASB sampai RM 2,400.
 
@@ -51,7 +51,7 @@ Dan yang sebaiknya, kita ada 3 bulan gaji dalam ASB.
 
 Kalau boleh, bila ada kecemasan, kita tak perlu keluarkan dari tabung kecemasan. Atau mungkin kecemasan berlaku di hujung minggu, kita tak dapat nak keluarkan dari ASB. Masa ini aku harap gaji kita dah cukup untuk memohon kad kredit. Kita boleh gunakan kad kredit jika berlaku kecemasan.
 
-Tapi kalau kita perlukan wang tunai untuk kecemasan, jangan buat “cash advance”. Kita boleh mohon kad debit BigPay, topup BigPay pakai kad kredit dan keluarkan tunai dari BigPay. (Boleh daftar di [http://bigpay.link/referrals?referralcode=WBYXMGJ9NA]()).
+Tapi kalau kita perlukan wang tunai untuk kecemasan, jangan buat “cash advance”. Kita boleh mohon kad debit BigPay, topup BigPay pakai kad kredit dan keluarkan tunai dari BigPay. (Boleh daftar di [http://bigpay.link/referrals?referralcode=WBYXMGJ9NA](http://bigpay.link/referrals?referralcode=WBYXMGJ9NA)).
 
 Bila dah boleh keluarkan tunai dari ASB, kita terus bayar balik kad kredit. Jangan tunggu.
 
@@ -63,13 +63,13 @@ Pendek kata, jangan menggatal nak “time the market”, melabur secara konsiste
 
 ## Luno
 
-Kita mulakan dengan kripto. (boleh daftar di [https://www.luno.com/invite/DXJHPF]()). Kita boleh ambil 10% dari jumlah pelaburan bulanan kita untuk kripto. Tak kisahlah orang percaya atau tidak, yang penting memang ada duit dalam kripto.
+Kita mulakan dengan kripto. (boleh daftar di [https://www.luno.com/invite/DXJHPF](https://www.luno.com/invite/DXJHPF)). Kita boleh ambil 10% dari jumlah pelaburan bulanan kita untuk kripto. Tak kisahlah orang percaya atau tidak, yang penting memang ada duit dalam kripto.
 
 Kita guna DCA untuk labur secara konsisten setiap minggu kalau boleh, kalau tak boleh kita buat setiap bulan. Laburkan dalam BTC adalah wajib. Selebihnya boleh labur dalam ETH dan ADA. Tak perlu banyak-banyak, untuk jangka masa panjang kita “hodl” tiga kripto saja.
 
 ## HelloGold
 
-Kemudian kita boleh tambah komoditi emas dalam portfolio. Paling mudah kita pakai HelloGold (boleh daftar di [https://referral.hellogold.com/?ref=ARZU95BT]()).
+Kemudian kita boleh tambah komoditi emas dalam portfolio. Paling mudah kita pakai HelloGold (boleh daftar di [https://referral.hellogold.com/?ref=ARZU95BT](https://referral.hellogold.com/?ref=ARZU95BT)).
 
 Emas tak payah nak cerita banyak, dari dulu lagi orang dah menyimpan emas. Untung atau rugi ikut masa bila kita beli dan jual. Jadi teruskan dengan DCA. Boleh simpan dalam 5% atau 10% sebulan. 
 
@@ -79,11 +79,11 @@ Ini cerita dia panjang sikit. moomoo memudahkan kita untuk melabur dalam pasaran
 
 Kita boleh mula dengan VOO untuk semua syarikat S&P 500, dan ARKK untuk syarikat dalam kategori teknologi.
 
-Cuma untuk mendaftar moomoo ni leceh sikit. Kita kena ada bank akaun di Singapura (Boleh daftar di [https://j.moomoo.com/007mcM](), moomoo selalu hadiahkan saham percuma, sekarang boleh dapat saham Apple). Tak susah cuma banyak kerja. Paling senang kita pakai CIMB FastSaver di Singapura. Pendaftaran secara online. Hanya perlu akaun CIMB di Malaysia. Untuk penghantaran duit ke akaun Singapura, kita boleh pakai Wise untuk mengurangkan yuran pemindahan (boleh daftar di [https://wise.com/invite/u/arzumyb]())
+Cuma untuk mendaftar moomoo ni leceh sikit. Kita kena ada bank akaun di Singapura (boleh daftar di [https://j.moomoo.com/007mcM](https://j.moomoo.com/007mcM), moomoo selalu hadiahkan saham percuma, sekarang boleh dapat saham Apple). Tak susah cuma banyak kerja. Paling senang kita pakai CIMB FastSaver di Singapura. Pendaftaran secara online. Hanya perlu akaun CIMB di Malaysia. Untuk penghantaran duit ke akaun Singapura, kita boleh pakai Wise untuk mengurangkan yuran pemindahan (boleh daftar di [https://wise.com/invite/u/arzumyb](https://wise.com/invite/u/arzumyb))
 
 ## eToro
 
-Sekarang kita mungkin dah ada pengalaman pelaburan. Kita boleh cuba untuk membeli saham syarikat US yang mungkin akan memberi keuntungan lebih. Aku hanya melabur dalam syarikat yang aku kenal dan aku guna servis mereka. Tapi kebanyakan saham mereka mahal. Jadi kita akan pakai eToro (boleh daftar di [https://etoro.tw/3BJbwpF]()) sebab dengan eToro kita boleh membeli pecahan saham.
+Sekarang kita mungkin dah ada pengalaman pelaburan. Kita boleh cuba untuk membeli saham syarikat US yang mungkin akan memberi keuntungan lebih. Aku hanya melabur dalam syarikat yang aku kenal dan aku guna servis mereka. Tapi kebanyakan saham mereka mahal. Jadi kita akan pakai eToro (boleh daftar di [https://etoro.tw/3BJbwpF](ttps://etoro.tw/3BJbwpF)) sebab dengan eToro kita boleh membeli pecahan saham.
 
 Contoh, saham Apple sekarang adalah RM 600, tapi kita hanya mampu melaburkan RM 200. Dengan eToro kita boleh beli 1/3 saham Apple pada harga RM 200. Dan kita akan beroleh keuntungan kalau harga saham Apple meningkat.
 
