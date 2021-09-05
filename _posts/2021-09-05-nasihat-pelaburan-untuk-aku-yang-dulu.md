@@ -7,7 +7,7 @@ tags : [internship, startup, career]
 
 Sebelum kita mula, penting untuk aku buat _penafian_ dulu. Nasihat ini adalah untuk aku yang dulu, aku yang berumur 20 tahun berdasarkan situasi zaman sekarang. Ini bukan nasihat pelaburan untuk orang lain. Aku tak bertanggungjawab atas segala kerugian kalau kau ikut bulat-bulat nasihat ni. Dan kau kena ingat, matlamat kewangan kita tak sama, status kewangan kita tak sama, toleransi risiko kita tak sama.
 
-_Penafian #2_, kebanyakan pautan dalam artikel ni ada referral links”. Kalau kau daftar mana-mana servis dari “referral links” kita sama-sama untung.
+_Penafian #2_, kebanyakan pautan dalam artikel ni ada "referral links”. Kalau kau daftar mana-mana servis dari “referral links” kita sama-sama untung.
 
 _Penafian #3_, aku ada melabur atau mungkin akan melabur dalam aset-aset yang dinyatakan dalam artikel ni. 
 
@@ -31,7 +31,7 @@ Jadi kalau bukan ASB, dekat mana patut aku buat pelaburan? Kita boleh mula denga
 
 ## Stashaway
 
-Ada banyak “roboadvisor” sekarang, aku cadangkan Stashaway (boleh daftar di [https://www.stashaway.my/referrals/mdan2vk](https://www.stashaway.my/referrals/mdan2vk)). Kenapa Stashaway? Kenapa bukan yang lain? Tak ada sebab tertentu pun. Aku sekarang pakai Stashaway, itu saja. 
+Ada banyak “roboadvisor” sekarang, aku cadangkan Stashaway (boleh daftar di [https://www.stashaway.my/referrals/mdan2vk](https://www.stashaway.my/referrals/mdan2vk)). Kenapa Stashaway? Kenapa bukan yang lain? Tak ada sebab tertentu pun. Aku sekarang pakai Stashaway, itu saja. 
 
 Bila kita melabur dalam Stashaway, senang kita nak tengok kadar keuntungan (atau kerugian). Ingat, matlamat kita tadi ada untuk bina tabiat melabur. Mungkin keuntungan dia nampak sedikit, tapi itu bukan masalah. Asalkan kita ada nampak hasil dari pelaburan kita. Barulah kita bersemangat nak melabur secara konsisten.
 
