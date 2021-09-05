@@ -63,7 +63,7 @@ Pendek kata, jangan menggatal nak “time the market”, melabur secara konsiste
 
 ## Luno
 
-Kita mulakan dengan kripto. (boleh daftar di [https://www.luno.com/invite/DXJHPF)()]. Kita boleh ambil 10% dari jumlah pelaburan bulanan kita untuk kripto. Tak kisahlah orang percaya atau tidak, yang penting memang ada duit dalam kripto.
+Kita mulakan dengan kripto. (boleh daftar di [https://www.luno.com/invite/DXJHPF]()). Kita boleh ambil 10% dari jumlah pelaburan bulanan kita untuk kripto. Tak kisahlah orang percaya atau tidak, yang penting memang ada duit dalam kripto.
 
 Kita guna DCA untuk labur secara konsisten setiap minggu kalau boleh, kalau tak boleh kita buat setiap bulan. Laburkan dalam BTC adalah wajib. Selebihnya boleh labur dalam ETH dan ADA. Tak perlu banyak-banyak, untuk jangka masa panjang kita “hodl” tiga kripto saja.
 
