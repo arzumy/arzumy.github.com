@@ -77,7 +77,7 @@ Emas tak payah nak cerita banyak, dari dulu lagi orang dah menyimpan emas. Untun
 
 Ini cerita dia panjang sikit. moomoo memudahkan kita untuk melabur dalam pasaran US. Aku tak galakkan beli saham syarikat US dalam moomoo sebab mungkin duit kita tak cukup nak beli satu unit saham. Fokus moomoo adalah untuk melabur dalam Index Fund atau ETF. Dengan Indeks Fund kita tak perlu nak pilih mana-mana syarikat, sebaliknya kita dapat melabur dalam semua syarikat S&P 500 di US atau sebahagian kategori syarikat yang tersenarai dalam ETF.
 
-Kita boleh mula dengan VOO untuk semua syarikat S&P 500, dan ARKK untuk syarikat dalam kategori teknologi.
+Kita boleh mula dengan [VOO](https://seekingalpha.com/symbol/VOO) untuk semua syarikat S&P 500, dan [ARKK](https://seekingalpha.com/symbol/ARKK) untuk syarikat dalam kategori teknologi.
 
 Cuma untuk mendaftar moomoo ni leceh sikit. Kita kena ada bank akaun di Singapura (boleh daftar di [https://j.moomoo.com/007mcM](https://j.moomoo.com/007mcM), moomoo selalu hadiahkan saham percuma, sekarang boleh dapat saham Apple). Tak susah cuma banyak kerja. Paling senang kita pakai CIMB FastSaver di Singapura. Pendaftaran secara online. Hanya perlu akaun CIMB di Malaysia. Untuk penghantaran duit ke akaun Singapura, kita boleh pakai Wise untuk mengurangkan yuran pemindahan (boleh daftar di [https://wise.com/invite/u/arzumyb](https://wise.com/invite/u/arzumyb))
 
